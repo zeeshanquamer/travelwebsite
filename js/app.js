@@ -107,7 +107,7 @@ barba.init({
       namespace: "home",
       beforeEnter() {
         animateSlide();
-        logo.href = "./index.html;";
+        logo.href = "./index.html";
       },
       beforeLeave() {
         slideScene.destroy();
